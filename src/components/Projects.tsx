@@ -51,6 +51,17 @@ const projects = [
     hasDetail: true,
     slug: 'ime-office',
   },
+  {
+    id: 5,
+    title: 'Home Office',
+    category: 'Residential',
+    description: 'A sustainable home office for creatives in Worcester with eco-friendly design',
+    image: '/projects/home-office-2/design-2.png',
+    color: 'from-amber-700/40',
+    size: 'medium',
+    hasDetail: true,
+    slug: 'home-office-2',
+  },
 ]
 
 const categories = ['All', 'Residential', 'Commercial']
