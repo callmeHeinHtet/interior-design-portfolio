@@ -225,11 +225,14 @@ export default function PortfolioProject() {
 
       {/* Lightbox */}
       <ImageLightbox
-        images={projectImages}
         isOpen={lightboxOpen}
         onClose={() => setLightboxOpen(false)}
-        currentIndex={lightboxIndex}
-        onNavigate={setLightboxIndex}
+        imageSrc={projectImages[lightboxIndex].src}
+        imageAlt={projectImages[lightboxIndex].alt}
+        onNext={() => setLightboxIndex((prev) => prev + 1)}
+        onPrev={() => setLightboxIndex((prev) => prev - 1)}
+        hasNext={lightboxIndex < projectImages.length - 1}
+        hasPrev={lightboxIndex > 0}
       />
     </main>
   )
