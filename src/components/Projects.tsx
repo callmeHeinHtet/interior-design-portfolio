@@ -62,6 +62,17 @@ const projects = [
     hasDetail: true,
     slug: 'home-office-2',
   },
+  {
+    id: 6,
+    title: 'Portfolio Design',
+    category: 'Commercial',
+    description: 'Personal branding and portfolio design with ethereal beauty aesthetic',
+    image: '/projects/portfolio/design-1.png',
+    color: 'from-purple-500/40',
+    size: 'medium',
+    hasDetail: true,
+    slug: 'portfolio',
+  },
 ]
 
 const categories = ['All', 'Residential', 'Commercial']
