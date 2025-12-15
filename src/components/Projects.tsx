@@ -73,6 +73,17 @@ const projects = [
     hasDetail: true,
     slug: 'portfolio',
   },
+  {
+    id: 7,
+    title: 'Models',
+    category: 'Commercial',
+    description: 'Professional model photography showcasing elegance and style',
+    image: '/projects/models/1.jpg',
+    color: 'from-pink-500/40',
+    size: 'large',
+    hasDetail: true,
+    slug: 'models',
+  },
 ]
 
 const categories = ['All', 'Residential', 'Commercial']
