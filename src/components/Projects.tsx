@@ -313,17 +313,6 @@ export default function Projects() {
           ))}
         </div>
 
-        {/* View All CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6, delay: 1 }}
-          className="text-center mt-16"
-        >
-          <a href="#" className="btn-primary inline-block">
-            View All Projects
-          </a>
-        </motion.div>
       </div>
     </section>
   )
