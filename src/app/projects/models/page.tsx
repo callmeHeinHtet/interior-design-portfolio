@@ -7,27 +7,27 @@ import { useState } from 'react'
 import ImageLightbox from '@/components/ImageLightbox'
 
 const projectImages = [
-  { src: '/projects/models/1.jpg', alt: 'Model Photo 1' },
-  { src: '/projects/models/2.jpg', alt: 'Model Photo 2' },
-  { src: '/projects/models/3.jpg', alt: 'Model Photo 3' },
-  { src: '/projects/models/4.jpg', alt: 'Model Photo 4' },
-  { src: '/projects/models/5.jpg', alt: 'Model Photo 5' },
-  { src: '/projects/models/6.jpg', alt: 'Model Photo 6' },
-  { src: '/projects/models/7.jpg', alt: 'Model Photo 7' },
-  { src: '/projects/models/8.jpg', alt: 'Model Photo 8' },
-  { src: '/projects/models/9.jpg', alt: 'Model Photo 9' },
-  { src: '/projects/models/10.jpg', alt: 'Model Photo 10' },
-  { src: '/projects/models/11.jpg', alt: 'Model Photo 11' },
-  { src: '/projects/models/12.jpg', alt: 'Model Photo 12' },
-  { src: '/projects/models/13.jpg', alt: 'Model Photo 13' },
-  { src: '/projects/models/14.jpg', alt: 'Model Photo 14' },
-  { src: '/projects/models/15.jpg', alt: 'Model Photo 15' },
-  { src: '/projects/models/16.jpg', alt: 'Model Photo 16' },
-  { src: '/projects/models/17.jpg', alt: 'Model Photo 17' },
-  { src: '/projects/models/18.jpg', alt: 'Model Photo 18' },
+  { src: '/projects/models/1.jpg', alt: 'Art Diorama 1' },
+  { src: '/projects/models/2.jpg', alt: 'Art Diorama 2' },
+  { src: '/projects/models/3.jpg', alt: 'Art Diorama 3' },
+  { src: '/projects/models/4.jpg', alt: 'Art Diorama 4' },
+  { src: '/projects/models/5.jpg', alt: 'Art Diorama 5' },
+  { src: '/projects/models/6.jpg', alt: 'Art Diorama 6' },
+  { src: '/projects/models/7.jpg', alt: 'Art Diorama 7' },
+  { src: '/projects/models/8.jpg', alt: 'Art Diorama 8' },
+  { src: '/projects/models/9.jpg', alt: 'Art Diorama 9' },
+  { src: '/projects/models/10.jpg', alt: 'Art Diorama 10' },
+  { src: '/projects/models/11.jpg', alt: 'Art Diorama 11' },
+  { src: '/projects/models/12.jpg', alt: 'Art Diorama 12' },
+  { src: '/projects/models/13.jpg', alt: 'Art Diorama 13' },
+  { src: '/projects/models/14.jpg', alt: 'Art Diorama 14' },
+  { src: '/projects/models/15.jpg', alt: 'Art Diorama 15' },
+  { src: '/projects/models/16.jpg', alt: 'Art Diorama 16' },
+  { src: '/projects/models/17.jpg', alt: 'Art Diorama 17' },
+  { src: '/projects/models/18.jpg', alt: 'Art Diorama 18' },
 ]
 
-export default function ModelsProject() {
+export default function ArtsProject() {
   const [lightboxOpen, setLightboxOpen] = useState(false)
   const [lightboxIndex, setLightboxIndex] = useState(0)
 
@@ -42,8 +42,8 @@ export default function ModelsProject() {
       <section className="relative h-[70vh] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/projects/models/1.jpg"
-            alt="Models"
+            src="/projects/models/7.jpg"
+            alt="Arts"
             fill
             className="object-cover object-top"
             priority
@@ -70,13 +70,13 @@ export default function ModelsProject() {
             transition={{ duration: 0.8 }}
           >
             <span className="font-body text-sm tracking-[0.3em] uppercase text-dk-pink-300 mb-4 block">
-              Photography
+              Miniature Art
             </span>
             <h1 className="font-display text-5xl md:text-7xl text-white mb-4">
-              <span className="text-gradient italic">Models</span>
+              <span className="text-gradient italic">Arts</span>
             </h1>
             <p className="font-script text-xl text-white/60 italic max-w-2xl">
-              Professional model photography showcasing elegance and style
+              Miniature art studio dioramas with handcrafted details and cozy aesthetics
             </p>
           </motion.div>
         </div>
@@ -96,15 +96,15 @@ export default function ModelsProject() {
               <div className="space-y-8">
                 <div>
                   <h3 className="font-body text-xs tracking-[0.2em] uppercase text-dk-pink-300 mb-2">Project Type</h3>
-                  <p className="font-display text-xl text-white">Model Photography</p>
+                  <p className="font-display text-xl text-white">Miniature Diorama</p>
                 </div>
                 <div>
                   <h3 className="font-body text-xs tracking-[0.2em] uppercase text-dk-pink-300 mb-2">Category</h3>
-                  <p className="font-display text-xl text-white">Commercial</p>
+                  <p className="font-display text-xl text-white">Art & Craft</p>
                 </div>
                 <div>
                   <h3 className="font-body text-xs tracking-[0.2em] uppercase text-dk-pink-300 mb-2">Style</h3>
-                  <p className="font-display text-xl text-white">Elegant & Stylish</p>
+                  <p className="font-display text-xl text-white">Cozy & Handcrafted</p>
                 </div>
                 <div>
                   <h3 className="font-body text-xs tracking-[0.2em] uppercase text-dk-pink-300 mb-2">Collection</h3>
@@ -123,18 +123,19 @@ export default function ModelsProject() {
               <h2 className="font-display text-3xl text-white mb-6">About the Project</h2>
               <div className="space-y-4 text-white/70 font-body leading-relaxed">
                 <p>
-                  This photography collection captures the essence of modern elegance through
-                  carefully curated model shots. Each image tells a story of style, grace,
-                  and artistic vision.
+                  This miniature diorama collection brings to life a cozy art studio space
+                  with incredible attention to detail. Each element is handcrafted to create
+                  a warm, inviting atmosphere.
                 </p>
                 <p>
-                  The collection showcases a range of poses and compositions, highlighting
-                  the interplay between light, form, and fashion. Every photograph is crafted
-                  to evoke emotion and inspire creativity.
+                  The diorama features an artist&apos;s workspace complete with an easel,
+                  paintings, comfortable seating, and decorative string lights that add
+                  a magical glow to the scene.
                 </p>
                 <p>
-                  From dramatic lighting to soft, ethereal tones, this portfolio demonstrates
-                  versatility in capturing the beauty and personality of each subject.
+                  From the textured rugs to the miniature furniture and plants, every piece
+                  demonstrates the art of creating scaled-down worlds that feel alive
+                  and full of character.
                 </p>
               </div>
             </motion.div>
@@ -151,7 +152,7 @@ export default function ModelsProject() {
             transition={{ duration: 0.6 }}
             className="font-display text-3xl text-white mb-12 text-center"
           >
-            Photo <span className="text-gradient italic">Gallery</span>
+            Art <span className="text-gradient italic">Gallery</span>
           </motion.h2>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
