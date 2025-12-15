@@ -75,7 +75,7 @@ const projects = [
   },
   {
     id: 7,
-    title: 'Arts',
+    title: 'Artworks',
     category: 'Residential',
     description: 'Miniature art studio dioramas with handcrafted details and cozy aesthetics',
     image: '/projects/models/7.jpg',
@@ -108,7 +108,7 @@ function ProjectCard({
             src={project.image}
             alt={project.title}
             fill
-            className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
+            className="object-contain object-center transition-transform duration-700 group-hover:scale-105"
           />
         </div>
       ) : (

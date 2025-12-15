@@ -73,7 +73,7 @@ export default function ArtsProject() {
               Miniature Art
             </span>
             <h1 className="font-display text-5xl md:text-7xl text-white mb-4">
-              <span className="text-gradient italic">Arts</span>
+              <span className="text-gradient italic">Artworks</span>
             </h1>
             <p className="font-script text-xl text-white/60 italic max-w-2xl">
               Miniature art studio dioramas with handcrafted details and cozy aesthetics
