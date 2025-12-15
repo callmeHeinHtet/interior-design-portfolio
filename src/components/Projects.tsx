@@ -64,7 +64,7 @@ const projects = [
   },
   {
     id: 6,
-    title: 'Portfolio Design',
+    title: 'Own Brand Creating',
     category: 'Commercial',
     description: 'Personal branding and portfolio design with ethereal beauty aesthetic',
     image: '/projects/portfolio/design-1.png',
@@ -83,6 +83,7 @@ const projects = [
     size: 'large',
     hasDetail: true,
     slug: 'models',
+    imageContain: true,
   },
 ]
 
@@ -108,7 +109,7 @@ function ProjectCard({
             src={project.image}
             alt={project.title}
             fill
-            className="object-contain object-center transition-transform duration-700 group-hover:scale-105"
+            className={`${project.imageContain ? 'object-contain object-center' : 'object-cover object-top'} transition-transform duration-700 group-hover:scale-105`}
           />
         </div>
       ) : (

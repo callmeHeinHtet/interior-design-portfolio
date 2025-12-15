@@ -63,7 +63,7 @@ export default function PortfolioProject() {
               Personal Branding
             </span>
             <h1 className="font-display text-5xl md:text-7xl text-white mb-4">
-              Portfolio <span className="text-gradient italic">Design</span>
+              Own Brand <span className="text-gradient italic">Creating</span>
             </h1>
             <p className="font-script text-xl text-white/60 italic max-w-2xl">
               Personal branding and portfolio design with ethereal beauty aesthetic
